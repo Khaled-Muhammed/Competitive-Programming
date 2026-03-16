@@ -27,7 +27,7 @@ int main() {
     sieve();
     int sz = (int) primes.size();
     for (int i = 0; i < sz; ++i)
-        printf("%d\n", primes[i]);
+       cout << primes[i] << ' ';
 
 
     return 0;
